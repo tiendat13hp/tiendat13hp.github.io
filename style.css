@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul.carusel {
+    width: 900px;
+    margin: auto;
+    position: relative;
+    height: 280px;
+}
+a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+li.slide {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    opacity: 0;
+}
+a.link {
+    text-decoration: none;
+    color: #1abc9c;
+}
+p.ten {
+    font-size: 14px;
+    margin-top: 16px;
+}
+img.avt {
+    width: 64px;
+    border-radius: 50%;
+    height: 64px;
+}
+
+p.cmt {
+    font-size: 21px;
+    color: gray;
+    height: 150px;
+}
+hr {
+    width: 40px;
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 48px;
+}
+h3.tieude {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.khoi-carousel {
+    text-align: center;
+    padding: 72px;
+    background: #e4f3e9;
+    height: 370px;
+}
+
+ul.nav i {
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 4px;
+}
+
+ul.carousel {
+    width: 900px;
+    margin: auto;
+    position: relative;
+    height: 200px;
+}
+
+li.slide.active {
+    opacity: 1;
+}
+
+i.fas.fa-chevron-right.icon-next:hover {
+    cursor: pointer;
+}
+
+i.fas.fa-chevron-left.icon-prev:hover {
+    cursor: pointer;
+}
